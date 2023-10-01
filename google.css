@@ -4,9 +4,10 @@
 }
 nav{
     display: flex;
-gap: 15px;
+gap: 10px;
 justify-content: end;
 align-items: center;
+padding: 15px;
 }
 #search-section{
     display: flex;
@@ -67,5 +68,20 @@ border-radius: 25px;
 padding-left: 10px;
 padding-right: 20px;
 }
-
+#search-bar:hover{
+    box-shadow: 0 ipx 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0)
+}
+#search-bar>input{
+    height: 44px;
+    width: 450px;
+    border: 2px solid #fefefe3c;
+    font-size: 18px;
+}
+#search-bar > input:focus{
+    outline: none;
+}
+p > span {
+    color: blue;
+}
 
